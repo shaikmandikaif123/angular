@@ -1,0 +1,13 @@
+<p>home works!</p>
+
+
+<div class="container">
+    <h2>Exercise List</h2>
+    <ul class="list-group">
+      <li *ngFor="let exercise of exercises" class="list-group-item">
+        <span>{{ exercise.name }}</span>
+        <button class="btn btn-primary float-right" (click)="markCompleted(exercise)">Mark Completed</button>
+      </li>
+    </ul>
+  </div>
+  

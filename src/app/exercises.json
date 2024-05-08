@@ -1,0 +1,8 @@
+{
+    "exercises": [
+      { "id": 1, "name": "Push-ups", "category": "Strength Training" },
+      { "id": 2, "name": "Running", "category": "Cardio" },
+      { "id": 3, "name": "Yoga", "category": "Flexibility" }
+    ]
+  }
+  
